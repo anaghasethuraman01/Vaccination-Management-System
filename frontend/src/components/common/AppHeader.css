@@ -1,0 +1,61 @@
+.app-header {
+  height: 60px;
+  position: relative;
+  z-index: 10;
+}
+
+.app-title {
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 1.35em;
+}
+
+.app-branding {
+  float: left;
+}
+
+.app-options {
+  float: right;
+}
+
+.app-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.app-nav ul li a {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.app-nav ul li a:hover {
+  color: #0f96f6;
+}
+
+.app-nav ul li a.active {
+  color: #0f96f6;
+}
+
+.transparent {
+  background: transparent;
+  border: none;
+  line-height: 15px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.label {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}

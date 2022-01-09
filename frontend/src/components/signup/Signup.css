@@ -1,0 +1,57 @@
+.signup-container {
+  text-align: center;
+}
+
+.signup-content {
+  background: #fff;
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+  border-radius: 2px;
+  width: 800px;
+  display: inline-block;
+  margin-top: 30px;
+  vertical-align: middle;
+  position: relative;
+  padding: 35px;
+}
+
+.social-btn.facebook img {
+  height: 24px;
+  margin-left: 3px;
+}
+
+.login-link {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+}
+
+.signup-title {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.signup-input-inline-left {
+  padding: 0px 5px 0px 15px;
+}
+
+.signup-input-inline-right {
+  padding: 0px 15px 0px 5px;
+}
+
+select:required:invalid {
+  height: 45px !important;
+  color: #666;
+}
+
+select:required:valid {
+  height: 45px !important;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: #000;
+}

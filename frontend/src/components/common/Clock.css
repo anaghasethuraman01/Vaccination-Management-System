@@ -1,0 +1,8 @@
+.App-clock {
+  display: inline-block;
+  line-height: 60px;
+  vertical-align: middle;
+  padding-right: 15px;
+  color: white;
+  margin-bottom: 0;
+}
